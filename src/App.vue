@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import AppNewsVue from './AppNews.vue';
+import AppNewsVue from '@/AppNews.vue';
 
 export default {
   name: 'App',
