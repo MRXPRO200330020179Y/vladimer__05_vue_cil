@@ -16,12 +16,15 @@
                 @action="mark"
                 >Прочеть новости
             </app-button>
+
+            <app-news-list></app-news-list>
         </div>
     </div>
 </template>
 
 <script>
 import AppButton from '@/AppButton.vue';
+import AppNewsList from '@/AppNewsList.vue';
 export default {
     // props:['title'],
     // emits:['open-news'],
@@ -82,7 +85,8 @@ export default {
     },
 
     components:{
-        AppButton
+        AppButton,
+        AppNewsList
     }
 }
 </script>
